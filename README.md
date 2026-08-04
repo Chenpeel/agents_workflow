@@ -3,7 +3,8 @@
 > 本文档作为 AGENTS 工作流必读文档
 >
 > 需由 Agent 生成的 `[AGENTS|CLAUDE|...].md` 指引阅读本文档
-
+>
+> 配套工程强约束见 [`ros_pkg_rules.md`](./ros_pkg_rules.md)
 ## 1. 工作流触发与命名
 
 当用户指定某任务 TARGET 时，在本目录下创建对应的 `{TARGET}_{DATE}_workflow/` 文件夹。
