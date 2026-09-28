@@ -6,7 +6,7 @@
 
 ## 1. 工作流触发与命名
 
-当用户为项目指定需要建档的任务 TARGET 时, 在任务所属项目或用户指定目录下创建对应的 `{TARGET}_{DATE}_workflow/` 文件夹; 如果同一任务已有工作流, 继续维护原目录, 不要重复创建.
+当用户为项目指定需要建档的任务 TARGET 时, 默认在项目根目录的 `.agents_workflow/` 下创建 `{TARGET}_{DATE}_workflow/`; 用户指定其他目录时以指定位置为准. 如果同一任务已有工作流, 继续维护原目录, 不要重复创建.
 
 ### 命名规范（强制）
 
@@ -14,7 +14,7 @@
 - **DATE**：任务创建日期，格式固定为 `YYYYMMDD`（如 `20260804`）
 - **后缀**：固定为 `_workflow`
 
-示例：`teleop-mode-manager_20260804_workflow/`
+示例: `项目根目录/.agents_workflow/api-rate-limiting_20260804_workflow/`
 
 ## 2. 文档结构
 
