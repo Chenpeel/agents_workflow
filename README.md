@@ -1,12 +1,12 @@
-# AGENTS README
+# 任务工作流
 
-> 本文档作为 AGENTS 工作流必读文档
+> 使用本仓库作为 `agents-workflow` skill 时, 先阅读 [SKILL.md](./SKILL.md); 按需读取 `template_workflow/` 中的模板.
 >
-> 需由 Agent 生成的 `[AGENTS|CLAUDE|...].md` 指引阅读本文档
+> 由 Agent 生成的项目级 `[AGENTS|CLAUDE|...].md` 应指引阅读本工作流规范.
 
 ## 1. 工作流触发与命名
 
-当用户指定某任务 TARGET 时，在本目录下创建对应的 `{TARGET}_{DATE}_workflow/` 文件夹。
+当用户为项目指定需要建档的任务 TARGET 时, 在任务所属项目或用户指定目录下创建对应的 `{TARGET}_{DATE}_workflow/` 文件夹; 如果同一任务已有工作流, 继续维护原目录, 不要重复创建.
 
 ### 命名规范（强制）
 
